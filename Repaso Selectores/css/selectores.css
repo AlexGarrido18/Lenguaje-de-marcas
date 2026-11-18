@@ -10,7 +10,7 @@ p {
     font-weight: bold;
     /*Cambia la anchura de la letra*/
 }
-
+ 
 /* Selector id */
 
 #primero {
@@ -37,7 +37,7 @@ body p {
 
 /* Hermanos adyacentes=Tienen que estar estrictamente pegados */
 #primero+p {
-    color: blueviolet;
+    /* color: blueviolet; */
 }
 
 /* Hermanos pequeños = nos pilla todos los p debajo de primero */
@@ -46,5 +46,24 @@ body p {
 }
 
 h1{
-    text-align: center;
+    text-align: center; /*Centra el texto*/
+}
+
+/* Atributos */
+[alt="primera"]{
+    border: 1px solid orange;
+}
+#div1>h1:hover{
+    background-color: blue;
+}
+
+body>p:first-of-type{ /*Selecciona el primero*/
+    color: red;
+}
+
+body>p:last-of-type{ /*Selecciona el ultimo*/
+    color: green;
+}
+body>p:nth-of-type(2){ /*Selecciona en concreto*/
+    color: chocolate;
 }
