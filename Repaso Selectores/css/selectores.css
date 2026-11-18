@@ -1,0 +1,50 @@
+/* SELECTOR UNIVERSAL */
+* {
+    /* border: 1px solid blue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*Cambia la fuente*/
+}
+
+/* Selector de etiqueta */
+p {
+    font-weight: bold;
+    /*Cambia la anchura de la letra*/
+}
+
+/* Selector id */
+
+#primero {
+    /* color: pink; */
+    padding: top 20px; /*Lo que te separas de los bordes*/
+    padding: bottom 20px;
+    margin: 30px; /*Lo que te separas de la etiqueta*/
+}
+
+/* Selector clases */
+.verde {
+    /* background-color: green; */
+}
+
+/* Hijo directo */
+div>p {
+    /* color: red; */
+}
+
+body p {
+    /*Todos los p que haya en el body da igual si es hijo o no*/
+    /* font-size: 50px; */
+}
+
+/* Hermanos adyacentes=Tienen que estar estrictamente pegados */
+#primero+p {
+    color: blueviolet;
+}
+
+/* Hermanos pequeños = nos pilla todos los p debajo de primero */
+#primero~p {
+    /* color: orangered; */
+}
+
+h1{
+    text-align: center;
+}
