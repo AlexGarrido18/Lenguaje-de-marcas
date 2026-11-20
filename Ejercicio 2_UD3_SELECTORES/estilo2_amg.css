@@ -16,7 +16,7 @@ h1{
 
 
 .imagen{
-    background-color: aquamarine;
+    background-color: lightskyblue;
 }
 
 .titulos{
@@ -39,12 +39,12 @@ h1{
 }
 
 .pulgadas{
-    background-color: aquamarine;
+    background-color: lightskyblue;
 }
 
 #hora{
     background-color: grey;
 }
 [colspan="2"],[colspan="3"]{
-    background-color: aquamarine;
+    background-color: lightskyblue;
 }
