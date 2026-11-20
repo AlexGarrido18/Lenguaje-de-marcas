@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio práctico con selectores</title>
     <meta name="Author" content="Mónica Marcos">
-
+<link rel="stylesheet" href="/Ejercicio 2_UD3_SELECTORES/estilo2_amg.css">
 </head>
 <body>
     
@@ -15,38 +15,38 @@
             <thead>
             <tr>
                 <th></th>
-                <th colspan="3"><img src="img/iphone1.png" alt="iphone"></th>
-                <th colspan="2"><img src="img/iphone2.png" alt="iphone"></th>
+                <th colspan="3" class="imagen"><img src="img/iphone1.png" alt="iphone"></th>
+                <th colspan="2" class="imagen"><img src="img/iphone2.png" alt="iphone"></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th >Capacidad</th>
-                <td>
+            <tr id="capacidad">
+                <th class="titulos">Capacidad</th>
+                <td class=gb>
                     <p>128GB</p>
                 </td>
-                <td >
+                <td class=gb>
                     <p>256GB</p>
                 </td>
-                <td>
+                <td class=gb>
                     <p>512GB</p>
                 </td>
-                <td >
+                <td class=gb >
                     <p>128GB</p>
                 </td>
-                <td >
+                <td class=gb>
                     <p>256GB</p>
                 </td>
             </tr>
             <tr >
-                <th >Colores</th>
+                <th class="titulos">Colores</th>
                 <td>Blanco</td>
                 <td>
                    Naranja
                 </td>
                 <td>Negro</td>
                 <td colspan="2">
-                    <ul>
+                    <ul id="lista">
                         <li>Negro</li>
                         <li>Rosa</li>
                         <li>Dorado</li>
@@ -54,14 +54,14 @@
                 </td>
             </tr>
             <tr>
-                <th>Pantalla</th>
+                <th class="titulos">Pantalla</th>
                 <td colspan="3">5 pulgadas</td>
                 <td colspan="2">5 pulgadas</td>
             </tr>
             <tr>
-                <th rowspan="2">Tiempo de Carga</th>
-                <td colspan="3" rowspan="2">1 hora</td>
-                <td colspan="2">1 hora</td>
+                <th rowspan="2" class="titulos">Tiempo de Carga</th>
+                <td colspan="3" rowspan="2" >1 hora</td>
+                <td colspan="2" id="hora">1 hora</td>
             </tr>
             <tr>
                 <td colspan="2">15 minutos para 75%</td>

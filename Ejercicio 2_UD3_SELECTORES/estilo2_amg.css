@@ -1,0 +1,50 @@
+table{
+    border-collapse: collapse;
+}
+img{
+    width: 100px;
+}
+
+tr,th,td{
+    border: 4px solid black;
+    border-collapse: separate;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.imagen{
+    background-color: aquamarine;
+}
+
+.titulos{
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+}
+
+#capacidad .gb{
+    background-color: grey;
+
+}
+
+.gb p{
+    font-size: 50px;
+}
+
+#lista li{
+    color: red;
+}
+
+.pulgadas{
+    background-color: aquamarine;
+}
+
+#hora{
+    background-color: grey;
+}
+[colspan="2"],[colspan="3"]{
+    background-color: aquamarine;
+}
