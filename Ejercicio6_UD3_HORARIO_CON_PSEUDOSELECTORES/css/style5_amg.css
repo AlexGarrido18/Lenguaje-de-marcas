@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 2px solid black;
+}
+caption>a{
+    text-decoration: none;
+    color: green;
+    
+}
+caption>a:visited{
+    text-decoration: none;
+    color: red;
+    
+}
+tbody tr>td:first-of-type{
+    background-color: green;
+}
+[colspan="5"]{
+    background-color: yellow;
+}
+thead>tr th::first-letter{
+ font-size: 3rem;
+}
+tbody tr>td:last-of-type:hover{
+    font-size: 2rem;
+}
