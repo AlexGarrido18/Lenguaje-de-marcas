@@ -1,3 +1,42 @@
-#rosa{
+/* PRIME DIV */
+#rosa {
     color: pink;
+}
+
+#rosa~h2 {
+    color: green;
+}
+
+#rosa+h2 {
+    border: 2px dotted red;
+}
+
+.primera>p{
+    background-color: lightskyblue;
+}
+
+/* SEGUNDO DIV */
+.segunda>h2:nth-of-type(2){
+    color: green;
+    border: 2px dotted red;
+}
+.segunda > h2:last-child {
+    color: green;
+}
+.segunda p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* TERCER DIV */
+.tercera>h2:nth-last-of-type(2){
+    color: green;   
+    border: 2p dotted red;
+}
+.tercera>h2:last-child{
+color: green;
+}
+
+.tercera p{
+    font-style: italic;
 }
