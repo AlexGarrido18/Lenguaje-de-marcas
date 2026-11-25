@@ -1,0 +1,64 @@
+body {
+    background-color: lightblue;
+}
+
+.linea {
+    color: darkblue;
+    size: 2px;
+    border-style: dotted;
+
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+color: rgb(131,25,42)
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+#primerdiv {
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#citas p{
+    font-style: italic;
+    font-size: 16px;
+}
+
+#citas h3{
+    color: green;
+    font-size: 14px;
+}
+
+#citas p::first-letter{
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#citas p:first-of-type{
+    text-decoration: underline red 2px double;
+}
+
+#citas p:nth-of-type(3){
+    text-decoration: underline red 2px double;
+}
+
+#pie p:last-of-type>.alixar:hover{
+    font-size: 2rem;
+}
+
+#pie p:nth-of-type(2):hover{
+color: red;
+}
+
