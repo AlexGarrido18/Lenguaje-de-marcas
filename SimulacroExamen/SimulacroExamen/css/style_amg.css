@@ -1,0 +1,49 @@
+body{
+    background-color: #dcb588;
+}
+hr{
+    color: black;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+#primera {
+    text-align: center;
+    color: brown;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.segunda p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.segunda p::first-line{
+    color: aqua;
+}
+
+.segunda p:first-of-type{
+    color: brown;
+}
+.segunda p:last-of-type{
+    color: brown;
+}
+
+#primera>h1:hover{
+    font-size: 4rem;
+}
+
+#resalto:hover{
+    color: red;
+}
